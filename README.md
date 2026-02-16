@@ -1,13 +1,7 @@
-azure-secure-workload-deployment/
-├── README.md
-├── docs/
-│   ├── 01-requirements.md
-│   ├── 02-architecture.md
-│   ├── 03-deployment-steps.md
-│   └── 04-validation.md
-├── infrastructure/
-│   └── main.bicep
-├── scripts/
-│   └── deploy.ps1
-├── screenshots/
-└── diagrams/
+## Business Scenario
+An internal application requires a secure Azure environment with
+restricted network access and role-based permissions.
+
+## Solution
+Deployed a secure Azure workload using Infrastructure as Code,
+least-privilege RBAC, and network segmentation.
